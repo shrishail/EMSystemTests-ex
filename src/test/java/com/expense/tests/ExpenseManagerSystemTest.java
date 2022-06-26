@@ -9,10 +9,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import net.rcarz.jiraclient.BasicCredentials;
-import net.rcarz.jiraclient.Field;
-import net.rcarz.jiraclient.Issue;
-import net.rcarz.jiraclient.JiraClient;
+//import net.rcarz.jiraclient.BasicCredentials;
+//import net.rcarz.jiraclient.Field;
+//import net.rcarz.jiraclient.Issue;
+//import net.rcarz.jiraclient.JiraClient;
 
 
 
@@ -37,10 +37,10 @@ public class ExpenseManagerSystemTest {
 		
 		
 		//Buggy Code
-		String expectedTitle = "Hello Page";
+		//String expectedTitle = "Hello Page";
 		
 		//Correct Code
-		//String expectedTitle = "Login page";
+		String expectedTitle = "Login page";
 		
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(expectedTitle, actualTitle);
